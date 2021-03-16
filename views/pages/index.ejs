@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Head-tagien sisältö -->
+    <%- include("../partials/head") %>
+
+</head>
+<body>
+
+    <header>
+
+        <!-- Header-tagien sisältö -->
+        <%- include("../partials/header") %>
+
+    </header>
+    
+    <div class="container-fluid">
+
+        <h1>Klikkaa tästä</h1>
+
+        <form action="/artikkelit" method="GET">
+            <button type="submit" class="btn btn-info">Katso artikkelit</button>
+
+        </form>
+
+    </div>
+    
+    <!-- Footer-tagien sisältö -->
+    <%- include("../partials/footer") %>
+
+</body>
+</html>
