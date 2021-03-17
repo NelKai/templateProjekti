@@ -2,30 +2,49 @@
 <html lang="en">
 <head>
     
-    <!-- Head-tagien sisältö -->
     <%- include("../partials/head") %>
+
+    <style>
+
+        th, td, h1 {
+            text-align: center;
+        }
+
+    </style>
 
 </head>
 <body>
 
     <header>
 
-        <!-- Header-tagien sisältö -->
         <%- include("../partials/header") %>
 
     </header>
 
-
-    
     <div class="container-fluid">
 
-        <h1>Suosituimmat NY Times artikkelit</h1>
-        
+        <h1>Aurinkokuntamme planeetat</h1>
+
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Auringosta laskettuna...</th>
+                    <th>Nimi</th>
+                    <th>Kuva</th>
+                </tr>
+            </thead>
+
+        <% for (var i = 0; i < planeetat.length; i++) { %>
+            <tr>
+                <td><%= planeetat[i].nro %></td>
+                <td><%= planeetat[i].nimi %></td>
+                <td><img src="<%= planeetat[i].kuvaURL %>" alt="" class="img-thumbnail img-fluid" style="height:200px;"/></td>
+            </tr> 
+        <% } %>
+
+        </table>
     </div>
     
-
-
-    <!-- Footer-tagien sisältö -->
     <%- include("../partials/footer") %>
 
 </body>

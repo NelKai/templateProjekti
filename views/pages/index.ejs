@@ -2,31 +2,41 @@
 <html lang="en">
 <head>
     
-    <!-- Head-tagien sisältö -->
     <%- include("../partials/head") %>
+
+    <style>
+
+        #etusivu {
+            text-align: center;
+            color: white;
+        }
+
+        .jumbotron {
+            background-image: url("https://cdn.pixabay.com/photo/2018/10/16/07/07/stars-3750824_1280.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
 
 </head>
 <body>
 
     <header>
 
-        <!-- Header-tagien sisältö -->
         <%- include("../partials/header") %>
 
     </header>
     
-    <div class="container-fluid">
-
-        <h1>Klikkaa tästä</h1>
-
-        <form action="/artikkelit" method="GET">
-            <button type="submit" class="btn btn-info">Katso artikkelit</button>
-
+    <div class="jumbotron" id="etusivu">
+        <h1>Template-projekti</h1>
+        <p>Tällä sivustolla on esiteltynä aurinkokuntamme planeetat!</p>
+        <hr class="my-4">
+        <form action="/planeetat" method="GET">
+            <button type="submit" class="btn btn-info">Katso planeettoja</button>
         </form>
-
     </div>
     
-    <!-- Footer-tagien sisältö -->
     <%- include("../partials/footer") %>
 
 </body>

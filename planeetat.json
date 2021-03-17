@@ -1,0 +1,44 @@
+{
+    "planeetat": [
+    {
+        "nro":"1. planeetta",
+        "nimi":"Merkurius", 
+        "kuvaURL":"https://upload.wikimedia.org/wikipedia/commons/a/a5/Mercury_black_background.png"
+    },
+    {
+        "nro":"2. planeetta",
+        "nimi":"Venus", 
+        "kuvaURL":"https://upload.wikimedia.org/wikipedia/commons/b/b4/Venus_black_background.png"
+    },
+    {
+        "nro":"3. planeetta",
+        "nimi":"Maa", 
+        "kuvaURL":"https://upload.wikimedia.org/wikipedia/commons/0/02/Earth_black_background.png"
+    },
+    {
+        "nro":"4. planeetta",
+        "nimi":"Mars", 
+        "kuvaURL":"https://upload.wikimedia.org/wikipedia/commons/1/10/Mars_black_background.png"
+    },
+    {
+        "nro":"5. planeetta",
+        "nimi":"Jupiter", 
+        "kuvaURL":"https://upload.wikimedia.org/wikipedia/commons/6/6c/Small_Jupiter.jpg"
+    },
+    {
+        "nro":"6. planeetta",
+        "nimi":"Saturnus", 
+        "kuvaURL":"https://upload.wikimedia.org/wikipedia/commons/3/3d/Saturn_black_background.png"
+    },
+    {
+        "nro":"7. planeetta",
+        "nimi":"Uranus", 
+        "kuvaURL":"https://upload.wikimedia.org/wikipedia/commons/9/94/Uranus_black_background.png"
+    },
+    {
+        "nro":"8. planeetta",
+        "nimi":"Neptunus", 
+        "kuvaURL":"https://upload.wikimedia.org/wikipedia/commons/4/4a/Small_Neptune.jpg"
+    }
+    ]
+}
