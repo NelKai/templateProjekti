@@ -1,4 +1,4 @@
-# templateProjekti
+# Template-projekti
 
 Sovellus hakee tietoja paikallisesta JSON-tiedostosta ja vie ne EJS templateen, joka tulostaa ne ruudulle.
 
